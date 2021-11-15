@@ -45,7 +45,7 @@ export type ObserverCallback<T> = (
 ) => void;
 
 export interface Clock {
-  [actorId: string]: number;
+  [actorId: ActorId]: number;
 }
 
 export interface Table<T> {
